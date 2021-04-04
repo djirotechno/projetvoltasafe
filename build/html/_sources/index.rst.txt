@@ -17,8 +17,10 @@ Indices and tables
 
 Description:
 ==================
+Pendant son fonctionnement, une installation PV peut être soumise à divers défauts et à des conditions de fonctionnement anormales.
+Les défauts et anomalies qui peuvent varier dans une installation dépendent de plusieurs facteurs, notamment la technologie et la robustesse des modules PV, la conception et la construction de l'installation, les conditions climatiques et l'environnement. Les principaux défauts et anomalies les plus souvent rencontrés sont la détérioration des cellules, la fissuration, l'échauffement des cellules - la pénétration de l'humidité, la dégradation des interconnexions, la corrosion des connexions des cellules, etc. - et l'endommagement des cellules.
 
-lorem
+
 
 * :ref:`genindex`
 * :ref:`modindex`
