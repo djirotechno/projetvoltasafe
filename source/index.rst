@@ -46,21 +46,30 @@ Nos capteurs
    * - List
      - Capteur
      - Description
-   * - Temperature _
+   * - .. image:: temp.jpg
      - xx
      - xx
    * - Humidite _
      - xxx
      - xxxx.
-   * - Courant _
+   * - .. image:: courant.jpg
      - xxx
      - xxx
-   * - Ensoleillement _
+   * - .. image:: pyrano.jpg
      -  xxx
      - xxxx
 
 Architecture et protocoles reseaux
 ===================================
+
+Architecture physique
+---------------------
+
+.. image:: Architecture.png
+
+
+Architecture logiciel
+---------------------
 
 
 Application
