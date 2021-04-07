@@ -1,13 +1,7 @@
 
 import sphinx_rtd_theme
 
-# Configuration file for the Sphinx documentation builder.
-#
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-# -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -67,7 +61,7 @@ html_theme_options = {'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in 
     'vcs_pageview_mode': '',
     'style_nav_header_background': 'white',
     # Toc options
-    'collapse_navigation': True,
+    'collapse_navigation': False,
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
@@ -78,3 +72,9 @@ html_theme_options = {'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in 
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
+
+html_css_files = [
+]

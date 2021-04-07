@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Voltasafe documentation! &mdash; Documentation Voltasafe 0.1</title>
+  <title>VOLTASAFE &mdash; Documentation Voltasafe 0.1</title>
   
 
   
@@ -85,9 +85,12 @@
             
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Voltasafe documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#">VOLTASAFE</a></li>
 <li><a class="reference internal" href="#description">Description:</a></li>
+<li><a class="reference internal" href="#solution">Solution</a></li>
+<li><a class="reference internal" href="#nos-capteurs">Nos capteurs</a></li>
+<li><a class="reference internal" href="#architecture-et-protocoles-reseaux">Architecture et protocoles reseaux</a></li>
+<li><a class="reference internal" href="#application">Application</a></li>
 </ul>
 </div>
             
@@ -136,7 +139,7 @@
     
       <li><a href="#" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Voltasafe documentation!</li>
+      <li>VOLTASAFE</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -155,18 +158,76 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="voltasafe-documentation">
-<h1>Voltasafe documentation!<a class="headerlink" href="#voltasafe-documentation" title="Lien permanent vers ce titre">¶</a></h1>
+  <div class="section" id="voltasafe">
+<h1>VOLTASAFE<a class="headerlink" href="#voltasafe" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
-</div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Lien permanent vers ce titre">¶</a></h1>
 </div>
 <div class="section" id="description">
 <h1>Description:<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Pendant son fonctionnement, une installation PV peut être soumise à divers défauts et à des conditions de fonctionnement anormales.
-Les défauts et anomalies qui peuvent varier dans une installation dépendent de plusieurs facteurs, notamment la technologie et la robustesse des modules PV, la conception et la construction de l’installation, les conditions climatiques et l’environnement. Les principaux défauts et anomalies les plus souvent rencontrés sont la détérioration des cellules, la fissuration, l’échauffement des cellules - la pénétration de l’humidité, la dégradation des interconnexions, la corrosion des connexions des cellules, etc. - et l’endommagement des cellules.</p>
+Les défauts et anomalies qui peuvent varier dans une installation dépendent de plusieurs facteurs, notamment la technologie et
+la robustesse des modules PV, la conception et la construction de l’installation, les conditions climatiques et l’environnement. Les principaux défauts et anomalies les plus souvent rencontrés sont la détérioration des cellules, la fissuration, l’échauffement des cellules - la pénétration de l’humidité, la dégradation des interconnexions, la corrosion des connexions des cellules, etc. - et l’endommagement des cellules.</p>
+</div>
+<div class="section" id="solution">
+<h1>Solution<a class="headerlink" href="#solution" title="Lien permanent vers ce titre">¶</a></h1>
+<blockquote>
+<div><p>&gt; Détection et localisation des défauts dans une installation PV</p>
+<p>&gt; Fournir aux utilisateurs d’énergie photovoltaïque un service de surveillance et de diagnostic
+des dysfonctionnements de l’installation en temps réel.</p>
+<p>&gt; Facilité d’entretien et de maintenance</p>
+</div></blockquote>
+<p>La solution permet de surveiller à distance une installation photovoltaïque grâce à des capteurs connectés à une passerelle. Cette passerelle centralise toutes les données afin de les enregistrer et/ou de les envoyer à un serveur. Sur la base de ces données, la passerelle effectue des calculs et des comparaisons, envoie des alertes et des messages d’alerte.</p>
+<img alt="_images/solution.png" src="_images/solution.png" />
+</div>
+<div class="section" id="nos-capteurs">
+<h1>Nos capteurs<a class="headerlink" href="#nos-capteurs" title="Lien permanent vers ce titre">¶</a></h1>
+<blockquote>
+<div><ul class="simple">
+<li><p>Capteur de temperature</p></li>
+<li><p>capteur humidité</p></li>
+<li><p>capteur courant</p></li>
+<li><p>capteur ensoleillement</p></li>
+</ul>
+</div></blockquote>
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Capteur</span><a class="headerlink" href="#id1" title="Lien permanent vers ce tableau">¶</a></caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>List</p></th>
+<th class="head"><p>Capteur</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Temperature _</p></td>
+<td><p>xx</p></td>
+<td><p>xx</p></td>
+</tr>
+<tr class="row-odd"><td><p>Humidite _</p></td>
+<td><p>xxx</p></td>
+<td><p>xxxx.</p></td>
+</tr>
+<tr class="row-even"><td><p>Courant _</p></td>
+<td><p>xxx</p></td>
+<td><p>xxx</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ensoleillement _</p></td>
+<td><p>xxx</p></td>
+<td><p>xxxx</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="architecture-et-protocoles-reseaux">
+<h1>Architecture et protocoles reseaux<a class="headerlink" href="#architecture-et-protocoles-reseaux" title="Lien permanent vers ce titre">¶</a></h1>
+</div>
+<div class="section" id="application">
+<h1>Application<a class="headerlink" href="#application" title="Lien permanent vers ce titre">¶</a></h1>
 <ul class="simple">
 <li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
 <li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Index du module</span></a></p></li>
