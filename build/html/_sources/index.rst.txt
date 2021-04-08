@@ -70,7 +70,7 @@ Architecture physique
 
 Architecture logiciel
 ---------------------
-
+.. image:: logic.png
 
 Application
 ===========
